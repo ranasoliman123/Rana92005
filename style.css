@@ -1,42 +1,42 @@
-/* Reset & base layout */
+/* Reset default browser styles and set box-sizing */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Base styles for the body */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #e0f7fa;
-  color: #333;
-  line-height: 1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean, modern font */
+  background-color: #e0f7fa; /* Light aqua background */
+  color: #333; /* Dark gray text */
+  line-height: 1.6;/* Comfortable text spacing */
 }
 
-/* Header styling */
+/* header section */
 header {
-  background-color: #0077b6;
-  color: white;
-  text-align: center;
-  padding: 1.5rem;
+  background-color: #0077b6; /*Deep blue background */
+  color: white; /* White text */
+  text-align: center; /* Center align header content */
+  padding: 1.5rem; /*space inside header */
 }
 
 header h1 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
-
+/* Navigation bar links */
 nav a {
   color: white;
   margin: 0 1rem;
   text-decoration: none;
   font-weight: bold;
 }
-
+/* Hover effect for nav links */
 nav a:hover {
   text-decoration: underline;
 }
 
-/* Main content */
+/* MAIN CONTENT AREA */
 main {
   padding: 2rem;
   max-width: 800px;
@@ -48,7 +48,7 @@ main h2 {
   color: #005f73;
   margin-bottom: 1rem;
 }
-
+/* Unordered lists (water saving tips) */
 ul {
   list-style-type: none;
   padding: 0;
@@ -63,10 +63,11 @@ ul li {
   font-size: 1.1rem;
 }
 
-/* Responsive video container */
+
+/* VIDEO CONTAINER for responsive YouTube embeds */
 .video-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 100%;
@@ -81,7 +82,7 @@ ul li {
   height: 100%;
 }
 
-/* Footer */
+/* FOOTER SECTION */
 footer {
   background-color: #0077b6;
   color: white;
